@@ -1,6 +1,6 @@
 {
   "scripts": {
-  	"start": "modemon app.js"
+  	"start": "nodemon app.js"
   },
   "dependencies": {
     "body-parser": "^1.18.3",
