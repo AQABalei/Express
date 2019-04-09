@@ -16,7 +16,7 @@ describe("track", function(){
 
     it("should pass if millisecond is a number.", async function(){
         let track = new Track({milliseconds:10});
-        return expect.isNumber(track.milliseconds);
+        return assert.isNumber(track.milliseconds);
     });
   });
 });
